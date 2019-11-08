@@ -24,6 +24,7 @@
         <div class="form-group">
           <label for="pizzaToppings">Choose Toppings:</label>
           <select class="form-control" id="pizzaToppings">
+            <option value="false">Select a Topping</option>
             <option value="Pepperoni">Pepperoni</option>
             <option value="Bacon">Bacon</option>
             <option value="Sausage">Sausage</option>
@@ -37,6 +38,7 @@
             <option value="Pesto">Pesto</option>
           </select>
           <select class="form-control" id="pizzaToppings2">
+            <option value="false">Select a Topping</option>
             <option value="Pepperoni">Pepperoni</option>
             <option value="Bacon">Bacon</option>
             <option value="Sausage">Sausage</option>
@@ -50,6 +52,7 @@
             <option value="Pesto">Pesto</option>
           </select>
           <select class="form-control" id="pizzaToppings3">
+            <option value="false">Select a Topping</option>
             <option value="Pepperoni">Pepperoni</option>
             <option value="Bacon">Bacon</option>
             <option value="Sausage">Sausage</option>
@@ -67,8 +70,6 @@
         <button type="submit" class="btn btn-light">Order</button>
       </form>
 
-      <button type="clear" id="clear" class="btn btn-light">Clear</button>
-
       <div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title">Order:</h3>
@@ -77,7 +78,9 @@
           <ul class="results">
           </ul>
 				</div>
+          <button type="clear" id="clear" class="btn btn-light">Clear</button>
 			</div>
+
 
     </div>
   </body>

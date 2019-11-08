@@ -5,3 +5,7 @@
 #addTopping {
   border: solid 1px lightgrey;
 }
+
+.panel {
+  display: none;
+}
