@@ -1,0 +1,7 @@
+#pizzaToppings2, #pizzaToppings3 {
+  display: none;
+}
+
+#addTopping {
+  border: solid 1px lightgrey;
+}

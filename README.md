@@ -10,33 +10,33 @@ _This is a program that reads user input to create a pizza using chosen toppings
 
 ## Specifications
 
-_Spec: the program returns a range of numbers from 0 to the number entered_
-  * _Input: 5_
-  * _Output: 0,1,2,3,4,5_
+_Spec: the program takes a pizza size and returns it to the user._
+  * _Input: Personal 8" (in dropdown menu)_
+  * _Output: Personal 8"_
 
-_Spec: the program returns "Beep" if the number contains a 1_
-  * _Input: 5_
-  * _Output: 0,"Beep",2,3,4,5_
+_Spec: the program takes a single topping and returns it to the user._
+  * _Input: Pepperoni (in dropdown menu)_
+  * _Output: Pepperoni_
 
-_Spec: the program returns "Boop" if the number contains a 2_
-  * _Input: 5_
-  * _Output: 0,1,"Boop",3,4,5_
+_Spec: the program adds another topping form when 'additional topping' button is clicked._
+  * _Input: button click_
+  * _Output: additional topping menu_
 
-_Spec: the program returns "I'm sorry, Dave. I'm afraid I can't do that." if the number contains a 3_
-  * _Input: 5_
-  * _Output: 0,1,2,"I'm sorry, Dave. I'm afraid I can't do that.",4,5_
+_Spec: the program returns the entire pizza to the user when the 'order' button is clicked._
+  * _Input: button click_
+  * _Output: Personal 8" - Pepperoni - ..._
 
-_Spec: the program returns the response of the largest digit if more than one are present in a number_
-  * _Input: 23_
-  * _Output: 0,(1)"Beep",...,(21)"Boop",(22)"Boop",(23)"I'm sorry, Dave. I'm afraid I can't do that.",(24)"Boop_
+_Spec: the program returns a price with the order when the 'order' button is clicked._
+  * _Input: button click_
+  * _Output: Personal 8" - Pepperoni - ... - $12_
 
 ## Setup/Installation Requirements
 
-* _Go to https://github.com/abatesaccs/hal9000 _
+* _Go to  _
 * _Clone or download all files in the repository (make sure they are contained in the same file!)_
 * _Open the index.html file_
 
-* _OR go to: https://abatesaccs.github.io/hal9000 _
+* _OR go to:  _
 
 _The file may have inconsistencies when using older browser versions_
 
