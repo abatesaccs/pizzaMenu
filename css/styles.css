@@ -2,7 +2,7 @@
   display: none;
 }
 
-#addTopping {
+.btn {
   border: solid 1px lightgrey;
 }
 
@@ -12,4 +12,8 @@
 
 p {
   font-style: italic;
+}
+
+select {
+  margin: 1%;
 }

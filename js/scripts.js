@@ -43,6 +43,10 @@ $(document).ready(function() {
   $("#submit").click(function(event) {
     event.preventDefault();
     var size = $("#pizzaSize").val();
+    if (size === "default") {
+      alert("please select a size.");
+      local.reload(true);
+    }
     var topping1 = $("#pizzaToppings").val();
     console.log(topping1);
     var topping2 = $("#pizzaToppings2").val();
@@ -53,6 +57,7 @@ $(document).ready(function() {
     console.log(result);
     $(".panel").show();
     $(".results").show().append(result).fadeIn(350);
+    $("#pizzaSize").val("default");
     $("#pizzaToppings").val("false");
     $("#pizzaToppings2").val("false");
     $("#pizzaToppings3").val("false");
