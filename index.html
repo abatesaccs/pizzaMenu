@@ -11,18 +11,19 @@
     <div class="container">
       <h1>Dominos Pizza(Hut):</h1>
 
-      <form id="input-string">
+      <form id="input-group">
         <div class="form-group">
           <label for="pizzaSize">Select a Size:</label>
           <select class="form-control" id="pizzaSize">
-            <option value="personal">Personal Pizza 8"</option>
-            <option value="small">Small 12"</option>
-            <option value="medium">Medium 18"</option>
-            <option value="large">Large 24"</option>
+            <option value="0 Personal">Personal Pizza 8" $8.00</option>
+            <option value="1 Small">Small 12" $11.00</option>
+            <option value="2 Medium">Medium 18" $15.00</option>
+            <option value="3 Large">Large 24" $18.00</option>
           </select>
         </div>
         <div class="form-group">
           <label for="pizzaToppings">Choose Toppings:</label>
+          <p>Add $2.00 per topping</p>
           <select class="form-control" id="pizzaToppings">
             <option value="false">Select a Topping</option>
             <option value="Pepperoni">Pepperoni</option>
@@ -67,7 +68,7 @@
           </select>
           <button type="button" id="addTopping" class="btn btn-light">Add Additional Topping</button>
         </div>
-        <button type="submit" class="btn btn-light">Order</button>
+        <button type="submit" class="btn btn-light" id="submit">Order</button>
       </form>
 
       <div class="panel panel-default">
@@ -75,8 +76,7 @@
 					<h3 class="panel-title">Order:</h3>
 				</div>
 				<div class="panel-body">
-          <ul class="results">
-          </ul>
+          
 				</div>
           <button type="clear" id="clear" class="btn btn-light">Clear</button>
 			</div>

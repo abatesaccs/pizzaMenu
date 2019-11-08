@@ -9,3 +9,7 @@
 .panel {
   display: none;
 }
+
+p {
+  font-style: italic;
+}
