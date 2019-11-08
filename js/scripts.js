@@ -38,6 +38,7 @@ $(document).ready(function() {
     var result = myPizza.getPrice();
     console.log(myPizza);
     console.log(result);
+    $(".panel").show();
     $(".results").show().append(result).fadeIn(350);
   });
   $("button#clear").click(function(event) {
