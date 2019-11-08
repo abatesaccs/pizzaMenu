@@ -18,6 +18,19 @@ Pizza.prototype.getPrice= function(){
   return finalPrice;
 }
 
+Pizza.prototype.getResult = function(price){
+  var pizzaDetails = "<h5>$" + price + " " + this.size[1] + " ";
+  console.log(pizzaDetails);
+  var toppings = this.toppings;
+  for (var i = 0; i < toppings.length; i++) {
+    if (toppings[i] != "false") {
+      pizzaDetails += toppings[i] + " ";
+    }
+  }
+  pizzaDetails += "</h5>"
+  return pizzaDetails
+}
+
 $(document).ready(function() {
   var numTopping = 2;
   $("#addTopping").click(function(){
@@ -35,14 +48,18 @@ $(document).ready(function() {
     var topping2 = $("#pizzaToppings2").val();
     var topping3 = $("#pizzaToppings3").val();
     var myPizza = new Pizza(size, topping1, topping2, topping3);
-    var result = myPizza.getPrice();
+    var result = myPizza.getResult(myPizza.getPrice());
     console.log(myPizza);
     console.log(result);
     $(".panel").show();
     $(".results").show().append(result).fadeIn(350);
+    $("#pizzaToppings").val("false");
+    $("#pizzaToppings2").val("false");
+    $("#pizzaToppings3").val("false");
   });
   $("button#clear").click(function(event) {
     event.preventDefault();
+    $(".panel").hide();
     $(".results").html("");
   });
 });
