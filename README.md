@@ -28,7 +28,7 @@ _Spec: the program returns the entire pizza to the user when the 'order' button 
 
 _Spec: the program returns a price with the order when the 'order' button is clicked._
   * _Input: button click_
-  * _Output: Personal 8" - Pepperoni - ... - $12_
+  * _Output: Personal 8" - Pepperoni - ... - $10_
 
 ## Setup/Installation Requirements
 

@@ -2,7 +2,17 @@
   display: none;
 }
 
+body {
+  background: #fffdf7;
+  background-image: url("../img/corrugation.png");
+}
+
+.form-control {
+  background: #f7f7f7;
+}
+
 .btn {
+  background: #f7f7f7;
   border: solid 1px lightgrey;
 }
 
@@ -16,4 +26,10 @@ p {
 
 select {
   margin: 1%;
+}
+
+h1 {
+  margin-top: 2%;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
 }

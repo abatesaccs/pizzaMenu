@@ -1,90 +1,97 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Domino's Pizza(Hut)</title>
+    <title>Checkers' Pizza</title>
   </head>
   <body>
     <div class="container">
-      <h1>Dominos Pizza(Hut):</h1>
-
-      <form id="input-group">
-        <div class="form-group">
-          <label for="pizzaSize">Select a Size:</label>
-          <select class="form-control" id="pizzaSize">
-            <option value="default">Select a Size</option>
-            <option value="0 Personal">Personal Pizza 8" $8.00</option>
-            <option value="1 Small">Small 12" $11.00</option>
-            <option value="2 Medium">Medium 18" $15.00</option>
-            <option value="3 Large">Large 24" $18.00</option>
-          </select>
+      <div class="row">
+        <div class="col-md-1">
         </div>
-        <div class="form-group">
-          <label for="pizzaToppings">Choose Toppings:</label>
-          <p>Add $2.00 per topping</p>
-          <select class="form-control" id="pizzaToppings">
-            <option value="false">Select a Topping</option>
-            <option value="Pepperoni">Pepperoni</option>
-            <option value="Bacon">Bacon</option>
-            <option value="Sausage">Sausage</option>
-            <option value="Canadian Bacon">Canadian Bacon</option>
-            <option value="Mushrooms">Mushrooms</option>
-            <option value="Olives">Olives</option>
-            <option value="Green Peppers">Green Peppers</option>
-            <option value="Chili Peppers">Chili Peppers</option>
-            <option value="Pineapple">Pineapple</option>
-            <option value="Spinach">Spinach</option>
-            <option value="Pesto">Pesto</option>
-          </select>
-          <select class="form-control" id="pizzaToppings2">
-            <option value="false">Select a Topping</option>
-            <option value="Pepperoni">Pepperoni</option>
-            <option value="Bacon">Bacon</option>
-            <option value="Sausage">Sausage</option>
-            <option value="Canadian Bacon">Canadian Bacon</option>
-            <option value="Mushrooms">Mushrooms</option>
-            <option value="Olives">Olives</option>
-            <option value="Green Peppers">Green Peppers</option>
-            <option value="Chili Peppers">Chili Peppers</option>
-            <option value="Pineapple">Pineapple</option>
-            <option value="Spinach">Spinach</option>
-            <option value="Pesto">Pesto</option>
-          </select>
-          <select class="form-control" id="pizzaToppings3">
-            <option value="false">Select a Topping</option>
-            <option value="Pepperoni">Pepperoni</option>
-            <option value="Bacon">Bacon</option>
-            <option value="Sausage">Sausage</option>
-            <option value="Canadian Bacon">Canadian Bacon</option>
-            <option value="Mushrooms">Mushrooms</option>
-            <option value="Olives">Olives</option>
-            <option value="Green Peppers">Green Peppers</option>
-            <option value="Chili Peppers">Chili Peppers</option>
-            <option value="Pineapple">Pineapple</option>
-            <option value="Spinach">Spinach</option>
-            <option value="Pesto">Pesto</option>
-          </select>
-          <button type="button" id="addTopping" class="btn btn-light">Add Additional Topping</button>
+        <div class="col-md-10">
+          <h1>Checkers' Pizza:</h1>
+
+          <form id="input-group">
+            <div class="form-group">
+              <label for="pizzaSize">Select a Size:</label>
+              <select class="form-control" id="pizzaSize">
+                <option value="default">Select a Size</option>
+                <option value="0 Personal">Personal Pizza 8" $8.00</option>
+                <option value="1 Small">Small 12" $11.00</option>
+                <option value="2 Medium">Medium 18" $15.00</option>
+                <option value="3 Large">Large 24" $18.00</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="pizzaToppings">Choose Toppings:</label>
+              <p>Add $2.00 per topping</p>
+              <select class="form-control" id="pizzaToppings">
+                <option value="false">Select a Topping</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Bacon">Bacon</option>
+                <option value="Sausage">Sausage</option>
+                <option value="Canadian Bacon">Canadian Bacon</option>
+                <option value="Mushrooms">Mushrooms</option>
+                <option value="Olives">Olives</option>
+                <option value="Green Peppers">Green Peppers</option>
+                <option value="Chili Peppers">Chili Peppers</option>
+                <option value="Pineapple">Pineapple</option>
+                <option value="Spinach">Spinach</option>
+                <option value="Pesto">Pesto</option>
+              </select>
+              <select class="form-control" id="pizzaToppings2">
+                <option value="false">Select a Topping</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Bacon">Bacon</option>
+                <option value="Sausage">Sausage</option>
+                <option value="Canadian Bacon">Canadian Bacon</option>
+                <option value="Mushrooms">Mushrooms</option>
+                <option value="Olives">Olives</option>
+                <option value="Green Peppers">Green Peppers</option>
+                <option value="Chili Peppers">Chili Peppers</option>
+                <option value="Pineapple">Pineapple</option>
+                <option value="Spinach">Spinach</option>
+                <option value="Pesto">Pesto</option>
+              </select>
+              <select class="form-control" id="pizzaToppings3">
+                <option value="false">Select a Topping</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Bacon">Bacon</option>
+                <option value="Sausage">Sausage</option>
+                <option value="Canadian Bacon">Canadian Bacon</option>
+                <option value="Mushrooms">Mushrooms</option>
+                <option value="Olives">Olives</option>
+                <option value="Green Peppers">Green Peppers</option>
+                <option value="Chili Peppers">Chili Peppers</option>
+                <option value="Pineapple">Pineapple</option>
+                <option value="Spinach">Spinach</option>
+                <option value="Pesto">Pesto</option>
+              </select>
+              <button type="button" id="addTopping" class="btn btn-light">Add Additional Topping</button>
+            </div>
+            <button type="submit" class="btn btn-light" id="submit">Add Pizza</button>
+          </form>
+
+          <div class="panel panel-default">
+    				<div class="panel-heading">
+    					<h3 class="panel-title">Order:</h3>
+    				</div>
+    				<div class="panel-body">
+              <ul class="results">
+
+              </ul>
+    				</div>
+              <button type="clear" id="clear" class="btn btn-light">Clear</button>
+    			</div>
         </div>
-        <button type="submit" class="btn btn-light" id="submit">Order</button>
-      </form>
-
-      <div class="panel panel-default">
-				<div class="panel-heading">
-					<h3 class="panel-title">Order:</h3>
-				</div>
-				<div class="panel-body">
-          <ul class="results">
-
-          </ul>
-				</div>
-          <button type="clear" id="clear" class="btn btn-light">Clear</button>
-			</div>
-
-
+        <div class="col-md-1">
+        </div>
+      </div>
     </div>
   </body>
 </html>
