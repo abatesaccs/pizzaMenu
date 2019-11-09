@@ -32,11 +32,11 @@ _Spec: the program returns a price with the order when the 'order' button is cli
 
 ## Setup/Installation Requirements
 
-* _Go to https://github.com/abatesaccs/pizzaMenu _
+* _Go to  _
 * _Clone or download all files in the repository (make sure they are contained in the same file!)_
 * _Open the index.html file_
 
-* _OR go to: https://abatesaccs.github.io/pizzaMenu _
+* _OR go to:  _
 
 _The file may have inconsistencies when using older browser versions_
 
